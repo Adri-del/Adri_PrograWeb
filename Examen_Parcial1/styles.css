@@ -1,0 +1,208 @@
+:root{
+    --color-boton: #714731;
+    --negro: #000000;
+    --blanco: #FFFFFF;
+    --crema: #F2E8DE;
+    --gris: #ACABAA
+}
+
+
+.main{
+    display : flex;
+    flex-flow: column;
+    background-image: url("img/main.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: left;
+    align-content: center;
+    max-height: 400px;
+    min-height: 400px;
+}
+
+.main-left{
+    display: flex;
+    flex-flow: column;
+    justify-content: left;
+    column-gap: 20px;
+    max-width: 60%;
+    max-height: 400px;
+    min-height: 400px;
+    padding-top: 60px;
+}
+
+.start-btn{
+    background-color: var(--color-boton);
+    color: var(--blanco);
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 0.5rem;
+    min-width: 100px;
+    max-width: 100px;
+    min-height: 30px;
+    max-height: 30px;
+}
+
+.historia-btn{
+    background-color: var(--crema);
+    color: var(--negro);
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 0.5rem;
+    min-width: 100px;
+    max-width: 100px;
+    min-height: 30px;
+    max-height: 30px;
+}
+
+.extra-info{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.lista-cafes{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.cafe-card{
+    display: flex;
+    flex-flow: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-items: left;
+    max-width: 25%;
+}
+
+.negritas{
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: var(--negro);
+}
+
+.bold-blanco{
+    font-weight: bold;
+    font-size: 0.75rem;
+    color: var(--blanco);
+}
+
+.blanco{
+    font-size: 0.75rem;
+    color: var(--blanco);
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.h2-blanco{
+    font-size: 1.5rem;
+    color: var(--blanco);
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 2rem;
+    color: var(--negro);
+}
+
+.normal-cafe{
+    font-size: 0.5rem;
+    color: #714731;
+}
+
+.nombre-cafe{
+    font-size: 1.5rem;
+    color: var(--negro);
+}
+
+p{
+    font-size: 1rem;
+    color: var(--negro);
+}
+
+.descripcion-cafe {
+    font-size: 1rem;
+    color: var(--gris);
+}
+
+.intro-busqueda{
+    display: flex;
+    flex-flow: column;
+    padding-top: 50px;
+    padding-bottom: 50;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+}
+
+.nuestra-historia{
+    display: flex;
+    flex-flow: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    vertical-align: middle;
+    justify-content: left;
+    background-image: url("img/historia.png");
+}
+
+.reseñas{
+    display: flex;
+    flex-flow: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up{
+    display: flex;
+    flex-flow: row;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    justify-content: space-between;
+    background-image: url("img/sign.png");
+}
+
+.sign-form{
+    display: flex;
+    flex-flow: row;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    flex-flow: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    vertical-align: middle;
+    justify-content: left;
+}
+
+.precio{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.comprar-btn{
+    background-color: var(--color-boton);
+    color: var(--blanco);
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    min-width: 50px;
+    max-width: 50px;
+    min-height: 30px;
+    max-height: 30px;
+}
